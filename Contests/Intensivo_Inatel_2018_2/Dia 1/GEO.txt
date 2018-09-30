@@ -1,0 +1,26 @@
+1) Produto escalar (dot)
+	p.q = |p||q|cosT = x1*x2 + y1*y2
+	p.q = 0 T = 90º
+	p.q > 0 T < 90º
+	p.q < 0 T > 90º
+
+2) Produto vetorial (cross)
+	pxq = |p||q|sinT = x1*y2 - x2*y1
+	pxq = 0 T = 0º ou T = 180º (p.q>0 T = 0º, p.q<0 T = 180º)
+	pxq > 0 T = (0, 180) ?
+	pxq < 0 T = (-180, 0) ?
+	significado geométrico
+
+3) Áreas polígono regular
+
+4) Distâncias
+	ponto a ponto
+	ponto a segmento
+
+5) Ponto dentro de um poligono
+
+6) Intersecção de segmentos
+
+7) Convex Hull
+	
+	

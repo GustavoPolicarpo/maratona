@@ -1,0 +1,36 @@
+
+1) Conversão de base
+	base X para base 10
+	base 10 para base X
+
+2) Primos
+	O(n)
+	o(sqrt(n))
+	crivo
+
+3) Aritmética modular
+	soma, multiplicação
+	subtração
+	divisão -> Inverso multiplicativo
+		ax = 1 mod p
+		Pequeno Teorema de Fermat: a^(p-1) = 1 mod p
+
+4) Exponenciação rápida
+	recursiva
+	iterativa
+	
+5) GCD and LCM
+	__gcd
+	algoritmo de euclides
+	algoritmo de euclides extendido: ax+by = 1 :: ax = 1 mod p
+
+6) Combinatória
+	Permutação simples: arrumar n elementos em m posições -> ___
+	Arranjo simples: -ordem A={AB, AC, AD, BA, BC, BD, CA, CB, CD, DA, DB, DC} -> n!/(n-p)!
+	Arranjo com repetição: -ordem -repetição A={AA, AB, AC, AD, BB, BA, BC, BD, CC, CA, CB, CD, DD, DA, DB, DC} -> n^p
+	Combinação simples: A={AB, AC, AD, BC, BD, CD} -> C(n, k)
+	Combinação com repetição: -repetição A={AA, AB, AC, AD, BB, BC, BD, CC, CD, DD} -> C(n+k-1, k)
+		Triângulo de Pascal
+
+7) Recorrência linear ?
+
