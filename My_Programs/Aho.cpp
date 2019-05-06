@@ -1,5 +1,5 @@
 const int cc = 26;										
-const int MAX = 100; 									
+const int MAX = 100;								
 
 int cnt;												
 int sig[MAX][cc]; 										
