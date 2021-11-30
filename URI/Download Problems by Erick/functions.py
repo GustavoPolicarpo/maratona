@@ -15,7 +15,7 @@ def filterProblems(problems1, problems2):
 class Extractor(object):
     def __init__(self):
         self.s = requests.session()
-        self.lang = ""
+        self.lang = "en"
         self.folders = []
         self.header = []
         self.tokenFields = "41dcc576d590c4d85784392529146d228d160ebf%3A"
@@ -24,13 +24,13 @@ class Extractor(object):
         itens = soup.find_all('table')[0].find_all('tbody')[0].find_all('tr')
         for tr in itens:
             td = tr.find_all('td')
-            if len(td) != 7:
+            if len(td) != 8:
                 return 
-            elif "SQL" not in td[4].text.strip():
-                problems[td[1].find('a').text.strip()] = {
+            elif "SQL" not in td[5].text.strip():
+                problems[td[2].find('a').text.strip()] = {
                     "id_code": td[0].find('a').text.strip(),
-                    "name": td[2].find('a').text.strip(),
-                    "language": td[4].text.strip()
+                    "name": td[3].find('a').text.strip(),
+                    "language": td[5].text.strip()
                 }
 
     def folderStructure(self):
@@ -43,7 +43,9 @@ class Extractor(object):
     def login(self):
         username = ''#input('\n\nLogin e-mail: ')
         password = ''#input('Password: ')
-        self.tokenFields = self.getPage("https://www.urionlinejudge.com.br/judge/pt/login").find("input", {"name": "_Token[fields]"}).attrs['value']
+        username = 'gustavo_votagus@hotmail.com'#input('\n\nLogin e-mail: ')
+        password = 'senhaprovisoria'#input('Password: ')
+        self.tokenFields = self.getPage("https://www.beecrowd.com.br/judge/en/login").find("input", {"name": "_Token[fields]"}).attrs['value']
         payload_login = {
             '_method': 'POST',
             '_csrfToken': self.s.cookies['csrfToken'],
@@ -54,23 +56,25 @@ class Extractor(object):
             '_Token[unlocked]': ''
         }
 
-        r = self.s.post("https://www.urionlinejudge.com.br/judge/pt/login", data=payload_login)
+        r = self.s.post("https://www.beecrowd.com.br/judge/en/login", data=payload_login)
 
         if len(r.history) == 0:
             print("Invalid login. Try Again")
             return False
 
-        self.lang = r.url.split('/')[-1]
+        ##self.lang = r.url.split('/')[-1]
+        print(self.lang)
+        print(r.url)
 
         self.email = username
-        self.author = self.getPage('https://www.urionlinejudge.com.br/judge/'+self.lang+'/account').find("input", {"name": "username"}).attrs['value']
+        self.author = self.getPage('https://www.beecrowd.com.br/judge/'+self.lang+'/account').find("input", {"name": "username"}).attrs['value']
 
         if self.lang == 'pt':
             self.folders = ["INICIANTE", "AD-HOC", "STRINGS", "ESTRUTURAS E BIBLIOTECAS", "MATEMÁTICA", "PARADIGMAS", "GRAFOS", "GEOMETRIA COMPUTACIONAL"]
             self.header = [" Autor: "+self.author+ "<"+self.email+">", " Nome: ", " Nível: ", " Categoria: "]
             return ["Login inválido", "\nLogado com sucesso\n", "Estrutura de pastas criada", "Criando lista de download", "Lista de download criada: ", " problemas", "\nBaixando códigos", "\nCódigos baixados com sucesso", "Nome completo: ", "Email de contato: "]
         elif self.lang == 'en':
-            self.folders = ["BEGINNER", "AD-HOC", "STRINGS", "DATA STRUCTURES AND LIBRARIES", "MATHEMATICS", "PARADIGMS", "GRAPH", "COMPUTATIONAL GEOMETRY"]
+            self.folders = ["BEGINNER", "AD-HOC", "STRINGS", "DATA", "MATHEMATICS", "PARADIGMS", "GRAPH", "COMPUTATIONAL"]
             self.header = [" Author: "+self.author+ "<"+self.email+">", " Name: ", " Level: ", " Category: "]
             return ["Invalid login", "\nSuccessfully logged in\n", "Folder structure created", "Creating download list", "Download list created: ", " problems", "\nDownloading Codes", "\nCodes successfully downloaded", "Full name: ", "Email contact: "]
         elif self.lang == 'es':
@@ -83,10 +87,12 @@ class Extractor(object):
         return BeautifulSoup(self.s.get(url).content, 'html.parser')
 
     def getUriProblems(self):
-        qt = int(self.getPage('https://www.urionlinejudge.com.br/judge/'+self.lang+'/runs?answer_id=1').find("div", {"id": "table-info"}).text.split(" ")[6])
+        qt = int(self.getPage('https://www.beecrowd.com.br/judge/'+self.lang+'/runs?answer_id=1').find("div", {"id": "table-info"}).text.split(" ")[2])
+        print(qt)
         problems = {}
         for i in range(qt, 0, -1):
-            self.extractProblems(self.getPage('https://www.urionlinejudge.com.br/judge/'+self.lang+'/runs?answer_id=1&page='+str(i)), problems)
+            print(i)
+            self.extractProblems(self.getPage('https://www.beecrowd.com.br/judge/'+self.lang+'/runs?answer_id=1&page='+str(i)), problems)
         return problems
 
     def getLocalProblems(self):
@@ -97,14 +103,15 @@ class Extractor(object):
         return problems
 
     def infoProblem(self, id):
-        menu = self.getPage('https://www.urionlinejudge.com.br/judge/'+self.lang+'/problems/view/'+id).find("div", {"id": "problem-menu"})
+        menu = self.getPage('https://www.beecrowd.com.br/judge/'+self.lang+'/problems/view/'+id).find("div", {"id": "page-name-c"})
+        menuStripped = menu.text.strip().split(' ')
         return {
-            "level": menu.find("span").text.strip().split(' ', 2)[1],
-            "category": menu.find_all("a")[-1].text.strip().upper()
+            "level": menuStripped[3].split('\n')[0],
+            "category": menuStripped[1].split('\n')[3].upper()
         }
 
     def getCode(self, id):
-        return self.getPage('https://www.urionlinejudge.com.br/judge/'+self.lang+'/runs/code/'+id).find("pre", {"id": "code"}).text
+        return self.getPage('https://www.beecrowd.com.br/judge/'+self.lang+'/runs/code/'+id).find("pre", {"id": "code"}).text
 
     def cleanName(self, name):
         return name.replace("\\", "").replace("/", "").replace(":", "").replace("?", "").replace("\"", "").replace("<", "").replace(">", "").replace("|", "")
@@ -115,6 +122,8 @@ class Extractor(object):
                 print("\tProblema "+id+" baixado")
             else:
                 print("\tProblem "+id+" downloaded")
+            if id == 2173 or id == 1249:
+                continue
             info = self.infoProblem(id)
             code = self.getCode(problems[id]["id_code"])
             extension = ""
@@ -128,13 +137,13 @@ class Extractor(object):
             else:
                 extension = ".py"
                 comment = "#"
-
+            print(info["category"])
             arq = codecs.open("./URI-"+self.lang.upper()+"/"+info["category"]+"/"+id+" - "+self.cleanName(problems[id]["name"])+extension, "w", "utf-8")
-            arq.write(comment+self.header[0]+"\n")
+            arq.write(comment+self.header[0].split("<")[0]+"\n")
             arq.write(comment+self.header[1]+problems[id]["name"]+"\n")
             arq.write(comment+self.header[2]+info["level"]+"\n")
             arq.write(comment+self.header[3]+info["category"]+"\n")
-            arq.write(comment+" URL: https://www.urionlinejudge.com.br/judge/"+self.lang+"/problems/view/"+id+"\n\n")
+            arq.write(comment+" URL: https://www.beecrowd.com.br/judge/"+self.lang+"/problems/view/"+id+"\n\n")
             arq.write(code)
             arq.write("\n")
             arq.close()
