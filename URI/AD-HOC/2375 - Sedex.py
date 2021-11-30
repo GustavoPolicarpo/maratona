@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Sedex
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2375
+# Author: Gustavo Policarpo
+# Name: Sedex
+# Level: 1
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2375
 
 n = input()
 a, b, c = map( int, raw_input().split() )

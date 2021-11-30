@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Cash Roial
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2595
+// Author: Gustavo Policarpo
+// Name: Cash Roial
+// Level: 6
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2595
 
 #include <stdio.h>
 #include <stdlib.h>

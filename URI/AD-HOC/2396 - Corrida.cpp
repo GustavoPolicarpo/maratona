@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Corrida
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2396
+// Author: Gustavo Policarpo
+// Name: Corrida
+// Level: 2
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2396
 
 #define gc getchar
 #define pc(x) putchar(x);

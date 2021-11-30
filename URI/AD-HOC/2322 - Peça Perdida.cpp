@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Peça Perdida
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2322
+// Author: Gustavo Policarpo
+// Name: Peça Perdida
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2322
 
 #define gc getchar
 #define pc(x) putchar(x);

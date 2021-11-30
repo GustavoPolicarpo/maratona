@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Joulupukki
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2025
+// Author: Gustavo Policarpo
+// Name: Joulupukki
+// Level: 5
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2025
 
 #include <bits/stdc++.h>
 

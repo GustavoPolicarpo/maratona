@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Caça ao Tesouro
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2398
+// Author: Gustavo Policarpo
+// Name: Caça ao Tesouro
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2398
 
 #define gc getchar
 #define pc(x) putchar(x);

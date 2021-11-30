@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Maratona
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2366
+# Author: Gustavo Policarpo
+# Name: Maratona
+# Level: 5
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2366
 
 n, m = map (int, raw_input().split() )
 v = [0]*(n)

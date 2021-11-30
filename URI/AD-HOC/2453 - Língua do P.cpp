@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Língua do P
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2453
+// Author: Gustavo Policarpo
+// Name: Língua do P
+// Level: 4
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2453
 
 #define gc getchar
 #define pc(x) putchar(x);

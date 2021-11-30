@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Deli Deli
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1652
+// Author: Gustavo Policarpo
+// Name: Deli Deli
+// Level: 2
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1652
 
 #include<bits/stdc++.h>
 

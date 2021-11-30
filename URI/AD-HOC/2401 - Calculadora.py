@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Calculadora
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2401
+# Author: Gustavo Policarpo
+# Name: Calculadora
+# Level: 6
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2401
 
 n = input()
 

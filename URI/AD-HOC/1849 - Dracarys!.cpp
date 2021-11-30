@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Dracarys!
-// Nível: 1
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1849
+// Author: Gustavo Policarpo
+// Name: Dracarys!
+// Level: 6
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1849
 
 #include<bits/stdc++.h>
 

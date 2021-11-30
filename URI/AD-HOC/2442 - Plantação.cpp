@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Plantação
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2442
+// Author: Gustavo Policarpo
+// Name: Plantação
+// Level: 8
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2442
 
 #define gc getchar
 #define pc(x) putchar(x);

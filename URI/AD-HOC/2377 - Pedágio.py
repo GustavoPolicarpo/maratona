@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Pedágio
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2377
+# Author: Gustavo Policarpo
+# Name: Pedágio
+# Level: 1
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2377
 
 n, m = raw_input().split()
 n = int(n)

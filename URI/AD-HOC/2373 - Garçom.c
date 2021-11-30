@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Garçom
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2373
+// Author: Gustavo Policarpo
+// Name: Garçom
+// Level: 1
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2373
 
 #include <stdio.h>
 

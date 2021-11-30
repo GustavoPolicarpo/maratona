@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: HameKameKa
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2591
+// Author: Gustavo Policarpo
+// Name: HameKameKa
+// Level: 1
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2591
 
 #include <stdio.h>
 #include <stdlib.h>

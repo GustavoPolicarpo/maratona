@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Feira de Bactérias
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2340
+// Author: Gustavo Policarpo
+// Name: Feira de Bactérias
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2340
 
 #include <stdio.h>
 #include <math.h>

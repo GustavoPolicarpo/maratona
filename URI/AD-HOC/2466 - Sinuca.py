@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Sinuca
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2466
+# Author: Gustavo Policarpo
+# Name: Sinuca
+# Level: 1
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2466
 
 n = input()
 mat = []

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Trilhas
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2296
+// Author: Gustavo Policarpo
+// Name: Trilhas
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2296
 
 #define gc getchar
 #define pc(x) putchar(x);

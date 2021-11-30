@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Soma das Casas
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2422
+// Author: Gustavo Policarpo
+// Name: Soma das Casas
+// Level: 6
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2422
 
 #include <bits/stdc++.h>
 

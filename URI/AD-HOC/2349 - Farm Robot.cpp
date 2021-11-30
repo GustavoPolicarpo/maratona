@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Farm Robot
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2349
+// Author: Gustavo Policarpo
+// Name: Farm Robot
+// Level: 2
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2349
 
 #define gc getchar
 #define pc(x) putchar(x);

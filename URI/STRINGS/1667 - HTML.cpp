@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: HTML
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1667
+// Author: Gustavo Policarpo
+// Name: HTML
+// Level: 9
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1667
 
 #include<bits/stdc++.h>
  

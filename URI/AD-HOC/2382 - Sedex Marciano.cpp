@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Sedex Marciano
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2382
+// Author: Gustavo Policarpo
+// Name: Sedex Marciano
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2382
 
 #define gc getchar
 #define pc(x) putchar(x);

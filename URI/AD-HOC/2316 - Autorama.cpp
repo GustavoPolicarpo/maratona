@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Autorama
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2316
+// Author: Gustavo Policarpo
+// Name: Autorama
+// Level: 6
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2316
 
 #include <bits/stdc++.h>
 #define rep(i,a,b) for(int i = int(a); i < int(b) ; i++)

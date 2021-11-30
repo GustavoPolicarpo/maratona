@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Ancient Messages
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2194
+// Author: Gustavo Policarpo
+// Name: Ancient Messages
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2194
 
 #define gc getchar_unlocked
 #include<bits/stdc++.h>

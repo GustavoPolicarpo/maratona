@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Og
-// Nível: 1
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1387
+// Author: Gustavo Policarpo
+// Name: Og
+// Level: 1
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1387
 
 #include<bits/stdc++.h>
 

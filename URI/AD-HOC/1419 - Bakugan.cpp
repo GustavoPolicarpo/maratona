@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Bakugan
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1419
+// Author: Gustavo Policarpo
+// Name: Bakugan
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1419
 
 #include<bits/stdc++.h>
 

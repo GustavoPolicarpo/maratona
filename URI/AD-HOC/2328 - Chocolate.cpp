@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Chocolate
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2328
+// Author: Gustavo Policarpo
+// Name: Chocolate
+// Level: 1
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2328
 
 #include<bits/stdc++.h>
 

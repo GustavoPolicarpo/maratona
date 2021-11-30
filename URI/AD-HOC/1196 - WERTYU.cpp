@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: WERTYU
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1196
+// Author: Gustavo Policarpo
+// Name: WERTYU
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1196
 
 #include<bits/stdc++.h>
 

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Etaoin Shrdlu
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1737
+// Author: Gustavo Policarpo
+// Name: Etaoin Shrdlu
+// Level: 4
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1737
 
 #include <bits/stdc++.h>
 

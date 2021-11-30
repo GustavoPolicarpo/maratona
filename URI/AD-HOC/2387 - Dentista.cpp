@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Dentista
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2387
+// Author: Gustavo Policarpo
+// Name: Dentista
+// Level: 4
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2387
 
 #define gc getchar
 #define pc(x) putchar(x);

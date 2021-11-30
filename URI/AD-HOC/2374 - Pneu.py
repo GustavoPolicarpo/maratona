@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Pneu
-# Nível: 1
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2374
+# Author: Gustavo Policarpo
+# Name: Pneu
+# Level: 1
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2374
 
 n = input()
 m = input()

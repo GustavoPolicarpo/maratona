@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Jogo de Cartas
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2307
+// Author: Gustavo Policarpo
+// Name: Jogo de Cartas
+// Level: 8
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2307
 
 #define gc getchar
 #define pc(x) putchar(x);

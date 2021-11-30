@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Enigma
-// Nível: 1
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2880
+// Author: Gustavo Policarpo
+// Name: Enigma
+// Level: 4
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2880
 
 #include <bits/stdc++.h>
 

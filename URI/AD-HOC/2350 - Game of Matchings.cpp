@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Game of Matchings
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2350
+// Author: Gustavo Policarpo
+// Name: Game of Matchings
+// Level: 10
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2350
 
 #define gc getchar
 #define pc(x) putchar(x);

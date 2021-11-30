@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Campo de Minhocas
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2293
+// Author: Gustavo Policarpo
+// Name: Campo de Minhocas
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2293
 
 #define gc getchar
 #define pc(x) putchar(x);

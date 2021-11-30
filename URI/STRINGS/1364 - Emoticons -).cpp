@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Emoticons :-)
-// Nível: 4
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1364
+// Author: Gustavo Policarpo
+// Name: Emoticons :-)
+// Level: 8
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1364
 
 #include <bits/stdc++.h>
 

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Hello Galaxy
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1515
+// Author: Gustavo Policarpo
+// Name: Hello Galaxy
+// Level: 1
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1515
 
 #include<bits/stdc++.h>
 

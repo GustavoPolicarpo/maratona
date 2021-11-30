@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: LED
-// Nível: 1
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1168
+// Author: Gustavo Policarpo
+// Name: LED
+// Level: 3
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1168
 
 #include <iostream>
 #include <iomanip>

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Libertadores
-// Nível: 1
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1536
+// Author: Gustavo Policarpo
+// Name: Libertadores
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1536
 
 #include<bits/stdc++.h>
 //LIFE IS NOT A PROBLEM TO BE SOLVED

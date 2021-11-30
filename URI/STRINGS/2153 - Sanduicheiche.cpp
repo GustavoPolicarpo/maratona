@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Sanduicheiche
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2153
+// Author: Gustavo Policarpo
+// Name: Sanduicheiche
+// Level: 4
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2153
 
 #include<bits/stdc++.h>
 

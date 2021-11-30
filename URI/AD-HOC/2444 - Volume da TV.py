@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Volume da TV
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2444
+# Author: Gustavo Policarpo
+# Name: Volume da TV
+# Level: 2
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2444
 
 v, t = map( int, raw_input().split() )
 n = [0]*t

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Kill the Werewolf
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2354
+// Author: Gustavo Policarpo
+// Name: Kill the Werewolf
+// Level: 8
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2354
 
 #include <bits/stdc++.h>
 using namespace std;

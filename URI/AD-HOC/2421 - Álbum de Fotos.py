@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Álbum de Fotos
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2421
+# Author: Gustavo Policarpo
+# Name: Álbum de Fotos
+# Level: 7
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2421
 
 x, y = map ( int, raw_input().split() )
 a, b = map ( int, raw_input().split() )

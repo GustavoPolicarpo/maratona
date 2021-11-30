@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Museu
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2308
+// Author: Gustavo Policarpo
+// Name: Museu
+// Level: 10
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2308
 
 #define gc getchar
 #define pc(x) putchar(x);

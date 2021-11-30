@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Pulo do Sapo
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2392
+# Author: Gustavo Policarpo
+# Name: Pulo do Sapo
+# Level: 3
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2392
 
 n, m = map( int, raw_input().split() )
 v = [0]*(n+1)

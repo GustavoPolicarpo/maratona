@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Do Lado Escuro do Código
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2487
+// Author: Gustavo Policarpo
+// Name: Do Lado Escuro do Código
+// Level: 9
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2487
 
 #include <stdio.h>
 

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Xoringan
-// Nível: 4
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2513
+// Author: Gustavo Policarpo
+// Name: Xoringan
+// Level: 10
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2513
 
 #define gc getchar
 #define pc(x) putchar(x);

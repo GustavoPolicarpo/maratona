@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Frequencia na Aula
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2410
+# Author: Gustavo Policarpo
+# Name: Frequencia na Aula
+# Level: 4
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2410
 
 v = [0]*1000010
 n = input()

@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Distância de Manhattan
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2437
+# Author: Gustavo Policarpo
+# Name: Distância de Manhattan
+# Level: 4
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2437
 
 a, b, c, d = map( int, raw_input().split() )
 out = 0

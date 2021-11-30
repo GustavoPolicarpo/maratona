@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Consecutivos
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2415
+# Author: Gustavo Policarpo
+# Name: Consecutivos
+# Level: 2
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2415
 
 n = input()
 v = [0]*n

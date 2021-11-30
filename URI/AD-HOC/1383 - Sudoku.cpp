@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Sudoku
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1383
+// Author: Gustavo Policarpo
+// Name: Sudoku
+// Level: 6
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1383
 
 #include<bits/stdc++.h>
 

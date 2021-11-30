@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Huaauhahhuahau
-// Nível: 1
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2242
+// Author: Gustavo Policarpo
+// Name: Huaauhahhuahau
+// Level: 2
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2242
 
 #define gc getchar_unlocked
 #include<bits/stdc++.h>

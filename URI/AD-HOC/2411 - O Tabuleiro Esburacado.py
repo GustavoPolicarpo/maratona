@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: O Tabuleiro Esburacado
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2411
+# Author: Gustavo Policarpo
+# Name: O Tabuleiro Esburacado
+# Level: 3
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2411
 
 dx = []
 dy = []

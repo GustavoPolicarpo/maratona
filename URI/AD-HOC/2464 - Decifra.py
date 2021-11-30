@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Decifra
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2464
+# Author: Gustavo Policarpo
+# Name: Decifra
+# Level: 3
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2464
 
 crip = raw_input()
 text = raw_input()

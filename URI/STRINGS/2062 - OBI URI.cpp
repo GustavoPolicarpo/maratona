@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: OBI URI
-// Nível: 1
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2062
+// Author: Gustavo Policarpo
+// Name: OBI URI
+// Level: 4
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2062
 
 #include<bits/stdc++.h>
 

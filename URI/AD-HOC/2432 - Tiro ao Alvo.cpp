@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Tiro ao Alvo
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2432
+// Author: Gustavo Policarpo
+// Name: Tiro ao Alvo
+// Level: 7
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2432
 
 #define gc getchar
 #define pc(x) putchar(x);

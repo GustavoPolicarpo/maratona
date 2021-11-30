@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Quadrado Mágico
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2318
+// Author: Gustavo Policarpo
+// Name: Quadrado Mágico
+// Level: 8
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2318
 
 #include <bits/stdc++.h>
 

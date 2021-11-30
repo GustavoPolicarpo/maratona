@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Copa do Mundo
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2459
+// Author: Gustavo Policarpo
+// Name: Copa do Mundo
+// Level: 2
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2459
 
 #define gc getchar
 #define pc(x) putchar(x);

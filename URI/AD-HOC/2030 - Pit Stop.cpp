@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Pit Stop
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2030
+// Author: Gustavo Policarpo
+// Name: Pit Stop
+// Level: 7
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2030
 
 #define gc getchar
 #define pc(x) putchar(x);

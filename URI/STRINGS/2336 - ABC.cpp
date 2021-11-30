@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: ABC
-// Nível: 3
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2336
+// Author: Gustavo Policarpo
+// Name: ABC
+// Level: 7
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2336
 
 #define gc getchar
 #define pc(x) putchar(x);

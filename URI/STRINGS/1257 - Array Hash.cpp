@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Array Hash
-// Nível: 3
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
+// Author: Gustavo Policarpo
+// Name: Array Hash
+// Level: 3
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1257
 
 #include<bits/stdc++.h>
 

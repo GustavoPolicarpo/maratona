@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Matring
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1803
+// Author: Gustavo Policarpo
+// Name: Matring
+// Level: 1
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1803
 
 #include<bits/stdc++.h>
 

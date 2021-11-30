@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Carnaval
-# Nível: 1
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2418
+# Author: Gustavo Policarpo
+# Name: Carnaval
+# Level: 2
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2418
 
 v = [0]*(5)
 v = map (float, raw_input().split() )

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: 2048
-// Nível: 2
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1559
+// Author: Gustavo Policarpo
+// Name: 2048
+// Level: 7
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1559
 
 #define gc getchar_unlocked
 #include<bits/stdc++.h>

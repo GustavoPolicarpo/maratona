@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Banco Imobiliário
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2304
+// Author: Gustavo Policarpo
+// Name: Banco Imobiliário
+// Level: 2
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2304
 
 #define gc getchar
 #define pc(x) putchar(x);

@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Drop Out
-// Nível: 3
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1327
+// Author: Gustavo Policarpo
+// Name: Drop Out
+// Level: 5
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1327
 
 #define gc getchar
 #define pc(x) putchar(x);

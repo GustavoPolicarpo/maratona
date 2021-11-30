@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: R+L=J
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2557
+// Author: Gustavo Policarpo
+// Name: R+L=J
+// Level: 2
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2557
 
 #include <bits/stdc++.h>
 

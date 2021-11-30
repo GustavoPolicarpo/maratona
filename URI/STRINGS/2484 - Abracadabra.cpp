@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Abracadabra
-// Nível: 1
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2484
+// Author: Gustavo Policarpo
+// Name: Abracadabra
+// Level: 4
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2484
 
 #define gc getchar
 #define pc(x) putchar(x);

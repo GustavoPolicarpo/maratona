@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Bullshit Bingo
-// Nível: 2
-// Categoria: STRINGS
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1664
+// Author: Gustavo Policarpo
+// Name: Bullshit Bingo
+// Level: 7
+// Category: STRINGS
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1664
 
 #include<bits/stdc++.h>
  

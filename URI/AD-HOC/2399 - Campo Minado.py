@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Campo Minado
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2399
+# Author: Gustavo Policarpo
+# Name: Campo Minado
+# Level: 2
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2399
 
 n = input()
 v = []

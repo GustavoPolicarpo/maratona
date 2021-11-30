@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Nove
-// Nível: 1
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2217
+// Author: Gustavo Policarpo
+// Name: Nove
+// Level: 3
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2217
 
 #define gc getchar_unlocked
 #include<bits/stdc++.h>

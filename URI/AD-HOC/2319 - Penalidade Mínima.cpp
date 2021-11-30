@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: Penalidade Mínima
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2319
+// Author: Gustavo Policarpo
+// Name: Penalidade Mínima
+// Level: 9
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/2319
 
 #define gc getchar
 #define pc(x) putchar(x);
@@ -42,7 +42,8 @@ void scanint(int &x)
     if(neg) x=-x;
 }
 
-int N, vis[1010][1010][2], vz[1010][1010][2]; ii mat[1010][1010];
+int N, vis[1010][1010][2]; ii mat[1010][1010];
+vector <ii> vz[1010][1010];
 int dx[]={0, 1}, dy[]={1, 0};
 
 bool dentro(int x, int y){
@@ -50,36 +51,37 @@ bool dentro(int x, int y){
 }
 int solve(){
 	priority_queue <iiii> pq;
-	rep(i, 0, N+2)
-	rep(j, 0, N+2)
-	rep(k, 0, 2)
-	vis[i][j][k]=vz[i][j][k]=INF;
-	
+	memset(vis, INF, sizeof vis);
 	int aux=min(mat[0][0].F, mat[0][0].S);
 	pq.push(mp(mp(-aux, mp(-mat[0][0].F+aux, -mat[0][0].S+aux)), mp(0, 0)));
-	vis[0][0][0]=vis[0][0][0]=aux;
-	vz[0][0][0]=mat[0][0].F, vz[0][0][1]=mat[0][0].S;
 	
 	while(!pq.empty()){
 		int x=pq.top().S.F, y=pq.top().S.S,
 			cnt=-pq.top().F.F, a=-pq.top().F.S.F, b=-pq.top().F.S.S; pq.pop();
 		
+		//cout << x << " " << y << " " << cnt << " " << a << " " << b << '\n';
 		if(x==N-1 && y==N-1) return cnt;
+		
+		int yep=1;
+		rep(i, 0, vz[x][y].size()){
+			if(vz[x][y][i].F <= a && vz[x][y][i].S <= b){
+				yep=0;
+				break;
+			}
+		}
+		
+		if(!yep) continue;
+		vz[x][y].pb(mp(a, b));
 		
 		rep(i, 0, 2){
 			int ax=x+dx[i], ay=y+dy[i];
 			if(!dentro(ax, ay))	continue;
-			
 			int aa=mat[ax][ay].F+a, bb=mat[ax][ay].S+b;
-			int ct=min(aa, bb), go=ct+cnt;
+			int ct=min(aa, bb);
 			aa-=ct, bb-=ct;
-			
-			if(vis[ax][ay][(aa ? 0 : 1)]<go) continue;
-			if(vz[ax][ay][(aa?0:1)] <= (aa?aa:bb)) continue;
-			
-			vz[ax][ay][(a?0:1)] = (a?aa:bb);
-			vis[ax][ay][(aa ? 0 : 1)]=go; 
-			pq.push(mp(mp(-go, mp(-aa, -bb)), mp(ax, ay)));
+			if(vis[ax][ay][(aa ? 0 : 1)]<ct+cnt) continue;
+			vis[ax][ay][(aa ? 0 : 1)]=ct+cnt; 
+			pq.push(mp(mp(-vis[ax][ay][(aa ? 0 : 1)], mp(-aa, -bb)), mp(ax, ay)));
 		}
 	}
 	return 0;

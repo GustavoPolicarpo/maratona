@@ -1,8 +1,8 @@
-// Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-// Nome: RSA
-// Nível: 5
-// Categoria: AD-HOC
-// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1716
+// Author: Gustavo Policarpo
+// Name: RSA
+// Level: 7
+// Category: AD-HOC
+// URL: https://www.beecrowd.com.br/judge/en/problems/view/1716
 
 #include <bits/stdc++.h>
 

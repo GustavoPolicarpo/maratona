@@ -1,8 +1,8 @@
-# Autor: Gustavo Policarpo<gustavo_votagus@hotmail.com>
-# Nome: Robô
-# Nível: 5
-# Categoria: AD-HOC
-# URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2436
+# Author: Gustavo Policarpo
+# Name: Robô
+# Level: 2
+# Category: AD-HOC
+# URL: https://www.beecrowd.com.br/judge/en/problems/view/2436
 
 mat = []
 vis = []
